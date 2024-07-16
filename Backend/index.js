@@ -26,7 +26,7 @@ app.post('/', (req, res) => {
     fs.writeFileSync('urls.json', JSON.stringify(urlsJson));
     res.json({
         status: true,
-        data: `http://localhost:10000/${shortUrl}`,
+        data: `https://url-shortner-web-app.onrender.com/${shortUrl}`,
         message: 'Short URL generated'
     });
 });
