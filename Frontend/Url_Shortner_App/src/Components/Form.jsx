@@ -14,7 +14,7 @@ import { useState } from "react"
     alert("Please Enter Long URl ....")
    }
    try {
-    const response=await fetch('http://localhost:10000/',{
+    const response=await fetch('https://url-shortner-web-app.onrender.com',{
         method:"POST",
         headers:{
             "Content-Type":"application/json",
