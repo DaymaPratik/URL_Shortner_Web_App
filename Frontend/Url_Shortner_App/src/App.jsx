@@ -1,11 +1,16 @@
 import Form from "./Components/Form"
+import Navbar from "./Components/Navbar"
 
 
 function App() {
  
 
   return (
-   <Form/>
+    <>
+    <Navbar/>
+    <Form/>
+    </>
+   
   )
 }
 
