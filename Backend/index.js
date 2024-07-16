@@ -54,7 +54,7 @@ import cors from 'cors';
 
 const app = express();
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5173','https://url-shortner-web-app.vercel.app/',
     methods: 'POST,GET',
     credentials: true,
 }));
